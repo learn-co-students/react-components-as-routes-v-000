@@ -87,7 +87,7 @@ Let's try it. Run npm start to boot up the application and then point your url t
 
 #### Adding Additional Routes
 
-In the last two steps we learned how to set up the basic __Router__ component and inject our very first __Route__ component. Let's continue down the rabit hole and add routes for an __about__ page and a __login__ page. 
+In the last two steps we learned how to set up the basic __Router__ component and inject our very first __Route__ component. Let's continue down the rabbit hole and add routes for an __about__ page and a __login__ page. 
 
 In our `/src/index.js file we should now have the following code: 
 
