@@ -246,7 +246,7 @@ ReactDOM.render(
 );
 ```
 
-After your finished, refresh the browser and verify that it is still working. So before we congratulate ourselves yet go take a look at the __Route__ component documentation and see if there is a prop that is better suited for this. 
+After your finished, refresh the browser and verify that it is still working. So, before we congratulate ourselves, go take a look at the __Route__ component documentation and see if there is a prop that is better suited for this. 
 
 https://reacttraining.com/react-router/web/api/Route
 
