@@ -250,7 +250,7 @@ After your finished, refresh the browser and verify that it is still working. So
 
 https://reacttraining.com/react-router/web/api/Route
 
-Yep, that is right! The __Route__ component API has a prop called `component`. This is more declaritive and it also uses the `React.createElement` instead of inline __JSX__ injection. We should change our code to use this now. 
+Yep, that is right! The __Route__ component API has a prop called `component`. This is more declarative and it also uses the `React.createElement` instead of inline __JSX__ injection. We should change our code to use this now. 
 
 ```javascript 
 <Router>
