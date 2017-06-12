@@ -199,7 +199,7 @@ We have made great progress, but this doesn't seem like it is managable long ter
 
 #### Components as Props 
 
-In the above step we just used the `render` prop to invoke some __JSX__ code to be rendered. This is great for small simple apps, but we want our code to be reusable and less britle. Let's move this code into small components and inject them into the `render` prop. 
+In the above step, we just used the `render` prop to invoke some __JSX__ code to be rendered. This is great for small simple apps, but we want our code to be reusable and less britle. Let's move this code into small components and inject them into the `render` prop. 
 
 ```javascript 
 // ./src/index.js 
