@@ -191,7 +191,7 @@ return (
 Let's go back to the browser and manualy type in the url locations for `/, /about & /login`. Do you see the rendered h1 tags for the `/` and `/about` urls? What about the form when you go to `/login`? 
 
 Just to recap what we have done so far: We imported the `react-router-dom` node module into our `index.js` with the __BrowserRouter as Router__ & the __Route__ components. After importing these into the file we returned the __Router__ component as the top level tag in our __JSX__ return statement with a proceding __div__ tag that contained our 3 children route components. Each route is doing 3 things right now:
-  - setting a path `path="/about"
+  - setting a path `path="/about"`
   - passing a arrow function inside of a `render` prop to render some __JSX__
   - setting an attribute of exact, which explicitly states that you will only see the rendered JSX if you go to `/about` not `/about/something_else`. 
 
