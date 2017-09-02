@@ -277,7 +277,7 @@ The React Router API comes with two options of adding in Links: __\<Link>__ and 
 
 There are some additional attributes too, but those are the 3 to get comfortable with. 
 
-So now that we know what component to use lets add them into our application. 
+So now that we know what component to use, let's add them into our application. 
 
 ```javascript 
 import React from 'react';
