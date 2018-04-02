@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 import Home from './home';
 import About from './about';
 import Login from './login';
+import Signup from './signup';
+import Messages from './messages';
 
 const link = {
   width: '100px',
@@ -43,6 +45,24 @@ const Navbar = () =>
         background: 'darkblue'
       }}
     >Login</NavLink>
+    <NavLink
+    	to="/signup" 
+    	exact
+    	style={link}
+    	activeStyle={{
+    		background: 'darkblue'
+    	}}
+    >signup
+    </NavLink>
+    <NavLink
+    	to="/messages" 
+    	exact
+    	style={link}
+    	activeStyle={{
+    		background: 'darkblue'
+    	}}
+    >messages
+    </NavLink>
   </div>;
 
 
@@ -53,6 +73,8 @@ ReactDOM.render((
 		  <Route exact path="/" component={Home} />
 		  <Route exact path="/about" component={About} />
 		  <Route exact path="/login" component={Login} />
+		  <Route exact path="/signup" component={Signup} />
+		  <Route exact path="/messages" component={Messages} />
 		</div>
   </Router>),
   document.getElementById('root')
