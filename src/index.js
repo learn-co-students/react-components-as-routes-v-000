@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// Step 1. Import react-router functions
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './Home'
+import About from './About'
+import Login from './Login'
 
-const Home = () => {
-  return (
+// Step 2. Changed to have router coordinate what is displayed
+ReactDOM.render((
+  <Router>
     <div>
-      <h1>Home!</h1>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" render={About} />
+      <Route exact path="/login" render={Login} />
     </div>
-  );
-};
-
-ReactDOM.render(
-  <Home />,
+  </Router>),
   document.getElementById('root')
 );
