@@ -1,0 +1,71 @@
+- camelcase@4.1.0 node_modules/webpack/node_modules/camelcase
+- has-flag@2.0.0 node_modules/webpack/node_modules/has-flag
+- is-fullwidth-code-point@1.0.0 node_modules/webpack/node_modules/is-fullwidth-code-point
+- string-width@1.0.2 node_modules/webpack/node_modules/cliui/node_modules/string-width
+- cliui@3.2.0 node_modules/webpack/node_modules/cliui
+- os-locale@2.1.0 node_modules/webpack/node_modules/os-locale
+- path-type@2.0.0 node_modules/webpack/node_modules/path-type
+- strip-bom@3.0.0 node_modules/webpack/node_modules/strip-bom
+- load-json-file@2.0.0 node_modules/webpack/node_modules/load-json-file
+- read-pkg@2.0.0 node_modules/webpack/node_modules/read-pkg
+- read-pkg-up@2.0.0 node_modules/webpack/node_modules/read-pkg-up
+- which-module@2.0.0 node_modules/webpack/node_modules/which-module
+- yargs-parser@7.0.0 node_modules/webpack/node_modules/yargs-parser
+- supports-color@4.5.0 node_modules/webpack/node_modules/supports-color
+- yargs@8.0.2 node_modules/webpack/node_modules/yargs
+react-components-as-routes@0.1.0 /Users/chris/.atom/.learn-ide/home/chrisjamesr-106931/react-components-as-routes-v-000
+└─┬ UNMET PEER DEPENDENCY webpack@4.12.0 invalid
+  ├─┬ @webassemblyjs/wasm-edit@1.5.12 
+  │ ├─┬ @webassemblyjs/helper-buffer@1.5.12 
+  │ │ └── debug@3.1.0 
+  │ ├─┬ @webassemblyjs/helper-wasm-section@1.5.12 
+  │ │ └── debug@3.1.0 
+  │ ├── @webassemblyjs/wasm-gen@1.5.12 
+  │ └── debug@3.1.0 
+  ├─┬ @webassemblyjs/wasm-opt@1.5.12 
+  │ └── debug@3.1.0 
+  ├─┬ @webassemblyjs/wasm-parser@1.5.12 
+  │ ├── @webassemblyjs/ieee754@1.5.12 
+  │ ├─┬ @webassemblyjs/leb128@1.5.12 
+  │ │ └── leb@0.3.0 
+  │ └── @webassemblyjs/utf8@1.5.12 
+  ├── acorn-dynamic-import@3.0.0 
+  ├─┬ chrome-trace-event@1.0.0 
+  │ └── tslib@1.9.2 
+  ├── enhanced-resolve@4.0.0 
+  ├── json-parse-better-errors@1.0.2 
+  ├── schema-utils@0.4.5 
+  ├── tapable@1.0.0 
+  └─┬ uglifyjs-webpack-plugin@1.2.5 
+    ├─┬ cacache@10.0.4 
+    │ ├── chownr@1.0.1 
+    │ ├─┬ mississippi@2.0.0 
+    │ │ ├─┬ duplexify@3.6.0 
+    │ │ │ └── stream-shift@1.0.0 
+    │ │ ├── end-of-stream@1.4.1 
+    │ │ ├── flush-write-stream@1.0.3 
+    │ │ ├── from2@2.3.0 
+    │ │ ├─┬ parallel-transform@1.1.0 
+    │ │ │ └── cyclist@0.2.2 
+    │ │ ├── pump@2.0.1 
+    │ │ ├── pumpify@1.5.1 
+    │ │ ├── stream-each@1.2.2 
+    │ │ └── through2@2.0.3 
+    │ ├─┬ move-concurrently@1.0.1 
+    │ │ ├── aproba@1.2.0 
+    │ │ ├─┬ copy-concurrently@1.0.5 
+    │ │ │ └── iferr@0.1.5 
+    │ │ ├── fs-write-stream-atomic@1.0.10 
+    │ │ └── run-queue@1.0.3 
+    │ ├── promise-inflight@1.0.1 
+    │ ├── ssri@5.3.0 
+    │ ├─┬ unique-filename@1.1.0 
+    │ │ └── unique-slug@2.0.0 
+    │ └── y18n@4.0.0 
+    ├─┬ find-cache-dir@1.0.0 
+    │ └── pkg-dir@2.0.0 
+    ├── serialize-javascript@1.5.0 
+    ├── source-map@0.6.1 
+    └─┬ uglify-es@3.3.9 
+      └── commander@2.13.0 
+
