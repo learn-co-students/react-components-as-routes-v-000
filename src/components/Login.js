@@ -1,0 +1,24 @@
+import React, { Component } from 'react';
+
+export default class Login extends React.Component {
+  render(){
+    return (
+      <div>
+        <form>
+          <div>
+          <br />
+          <br />
+          <br />
+            <input type="text" name="username" placeholder="Username" />
+            <label htmlFor="username">Username</label>
+          </div>
+          <div>
+            <input type="password" name="password" placeholder="Password" />
+            <label htmlFor="password">Password</label>
+          </div>
+          <input type="submit" value="Login" />
+        </form>
+      </div>
+    );
+  }
+};
