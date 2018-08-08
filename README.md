@@ -404,3 +404,4 @@ routes/navlinks that load in components.
 
 [route_docs]: https://reacttraining.com/react-router/web/api/Route
 [soils]: https://en.wikipedia.org/wiki/Soil_type
+  <Home />,
