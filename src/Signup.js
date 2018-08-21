@@ -1,10 +1,10 @@
 import React from 'react';
 
-class Login extends React.Component {
+class Signup extends React.Component {
   render() {
       return (
           <form>
-            <h1>Login</h1>
+            <h1>Signup</h1>
             <div>
               <input type="text" name="username" placeholder="Username" />
               <label htmlFor="username">Username</label>
@@ -13,10 +13,10 @@ class Login extends React.Component {
               <input type="password" name="password" placeholder="Password" />
               <label htmlFor="password">Password</label>
             </div>
-            <input type="submit" value="Login" />
+            <input type="submit" value="Signup" />
           </form>
       )
   }
 }
 
-export default Login;
+export default Signup;
