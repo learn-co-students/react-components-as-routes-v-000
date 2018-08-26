@@ -32,6 +32,16 @@ const Navbar = () =>
     >About</NavLink>
 
     <NavLink
+      to="/messages"
+      exact
+      style={link}
+      activeStyle={{
+        background: 'darkblue'
+      }}
+    >Messages</NavLink>
+
+
+    <NavLink
       to="/login"
       exact
       style={link}
@@ -39,14 +49,26 @@ const Navbar = () =>
         background: 'darkblue'
       }}
     >Login</NavLink>
-    
+
+    <NavLink
+      to="/signup"
+      exact
+      style={link}
+      activeStyle={{
+        background: 'darkblue'
+      }}
+    >Signup</NavLink>
   </div>;
  
 const Home = () => <h1>Home!</h1>;
  
 const About = () => <h1>This is my about component!</h1>;
+
+const Messages = () => <h1>Messages</h1>;
+
+const Signup = () => <h1>Signup</h1>;
  
-const Login = () =>
+const Login = () => 
   <form>
     <h1>Login</h1>
     <div>
@@ -67,6 +89,8 @@ ReactDOM.render((
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
       <Route exact path="/login" component={Login} />
+      <Route exact path="/signup" component={Signup} />
+      <Route exact path="/messages" component={Messages} />
     </React.Fragment>
   </Router>),
   document.getElementById('root')
