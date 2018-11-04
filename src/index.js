@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-
+// make sure to import after step 5.
 import Home from './home';
 import Login from './login';
 import About from './about';
