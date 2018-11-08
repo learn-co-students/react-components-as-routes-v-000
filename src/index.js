@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 import About from './components/About'
 import Home from './components/Home'
 import Login from './components/Login'
+import Signup from './components/Signup'
 
 /* Add basic styling for NavLinks */
 const link = {
@@ -46,6 +47,14 @@ const Navbar = () =>
         background: 'darkblue'
       }}
     >Login</NavLink>
+    <NavLink
+      to="/signup"
+      exact
+      style={link}
+      activeStyle={{
+        bacground: 'darkblue'
+      }}
+    >Signup</NavLink>
   </div>;
 
 
@@ -58,6 +67,7 @@ ReactDOM.render((
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
       <Route exact path="/login" component={Login} />
+      <Route exact path="/signup" component={Signup} />
     </React.Fragment>
   </Router>),
   document.getElementById('root')
