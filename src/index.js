@@ -65,9 +65,9 @@ const Login = () =>
 ReactDOM.render((
   <Router>
     <React.Fragment>
-      <Route path="/" component={Home} />
+      <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
-      <Reoute exact path="/login" component={Login} />
+      <Route exact path="/login" component={Login} />
     </React.Fragment>
   </Router>),
   document.getElementById('root')
