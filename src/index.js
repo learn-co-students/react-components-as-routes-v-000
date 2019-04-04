@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 // Import react-router functions
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-
 // Define routes
 
 const Home = () => {
