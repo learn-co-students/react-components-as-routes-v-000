@@ -44,11 +44,11 @@ const Login = () => {
 // Have router coordinate what is diaplayed
 ReactDOM.render((
   // Return Router as the top level component in the React application
+  // Define what urls to match on
+  // Define what component should be rendered, should a match return true
+  // Define an attribute of exact, which explicitly states which rendered component will be seen
   <Router>
   	<React.Fragment>
-  		// Define what urls to match on
-		// Define what component should be rendered, should a match return true
-		// Define an attribute of exact, which explicitly states which rendered component will be seen
 	  	<Route exact path='/' render={Home} />
 	  	<Route exact path='/about' render={About} />
 	  	<Route exact path='/login' render={Login} />
