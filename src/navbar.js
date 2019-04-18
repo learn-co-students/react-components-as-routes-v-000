@@ -30,6 +30,22 @@ class Navbar extends Component {
                         background: 'darkblue'
                     }}
                 >Login</NavLink>
+                <NavLink
+                    to="/signup"
+                    exact
+                    style={link}
+                    activeStyle={{
+                        background: 'darkblue'
+                    }}
+                >Signup</NavLink>
+                <NavLink
+                    to="/messages"
+                    exact
+                    style={link}
+                    activeStyle={{
+                        background: 'darkblue'
+                    }}
+                >Messages</NavLink>
             </div>
         )
     }
