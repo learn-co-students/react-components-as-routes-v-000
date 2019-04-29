@@ -21,7 +21,7 @@ const Navbar = () => (
 			style={link}
 			/* add prop for activeStyle */
 			activeStyle={{
-				background: 'darkblue'
+				background: 'blue'
 			}}
 		>
 			Home
