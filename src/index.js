@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom';
 // Step 1. import react-router functions
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 
+import Home from './Home';
+import About from './About';
+import Login from './Login';
+
 /* Add basic styling for NavLinks */
 const link = {
+  height: '100px',
   width: '100px',
   padding: '12px',
-  margin: '0 6px 6px',
+  margin: '20px',
   background: 'blue',
   textDecoration: 'none',
   color: 'white',
@@ -15,7 +20,7 @@ const link = {
 
 /* add the navbar component */
 const Navbar = () =>
-  <div>
+  <div style={{height: '100px'}}>
 
       <NavLink
       to="/"
@@ -47,21 +52,6 @@ const Navbar = () =>
 
   </div>
 
-
-const Home = () => <h1>Home!</h1>;
-
-const About = () => { <h1>This is my about component!</h1>;
-
-const Login = () =>
-      <form>
-          <input type="text" name="username" placeholder="Username" />
-          <label htmlFor="username">Username</label>
-    <div>
-      <input type="password" name="password" placeholder="Password" />
-      <label htmlFor="password">Password</label>
-    </div>
-    <input type="submit" value="Login" />
-    </form>;
 
 
 
