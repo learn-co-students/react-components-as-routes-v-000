@@ -46,7 +46,7 @@ import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
     >Login</NavLink>
     </div>;
 
-  const Home = () => <h1>Home!</h1>;
+  const Home = () => <h1>Home! what</h1>;
   const About = () => <h1> This is my component!</h1>
 
 
@@ -75,7 +75,7 @@ ReactDOM.render((
       {/* line 76 get the home.js file. */}
     <Route exact path="/" component={Home} />
     <Route exact path="/about" render={About} />
-    <Route exact path="login" render={Login} />
+    <Route exact path="/login" render={Login} />
     </React.Fragment>
   </Router>),
   document.getElementById('root')
