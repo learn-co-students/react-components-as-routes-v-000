@@ -1,15 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './home';
+import About from './about';
+import Login from './login';
+import Navbar from './navbar';
+import Signup from './signup';
 
-const Home = () => {
-  return (
+ReactDOM.render((
+  <Router>
     <div>
-      <h1>Home!</h1>
-    </div>
-  );
-};
+      <Navbar />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/login" component={Login} />
+      <Route exact path="/signup" component={Signup} />
 
-ReactDOM.render(
-  <Home />,
+    </div>
+  </Router>),
   document.getElementById('root')
 );
