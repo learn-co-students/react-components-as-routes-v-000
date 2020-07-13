@@ -5,7 +5,7 @@ import About from './About'
 import Login from './Login'
 import Navbar from './Navbar'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
- 
+
 ReactDOM.render((
   <Router>
     <div>
