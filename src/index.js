@@ -8,6 +8,12 @@ import Messages from './Messages';
 import Navbar from './Navbar';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+// Update: It may be bad practice to use the "component" prop like this.
+// It may be better to do something like:
+{/* <Route path="/">
+      <Home />
+    </Route> */}
+
 ReactDOM.render(
   (
     <Router>
