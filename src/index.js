@@ -1,15 +1,68 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Home from './Home.js';
+import About from './About.js';
+import Login from './Login.js';
+import Navbar from './Navbar.js';
 
-const Home = () => {
-  return (
+import {
+  BrowserRouter as Router, Route } from 'react-router-dom';
+  
+//   const link = {
+//     width: '100px',
+//     padding: '12px',
+//     margin: '0 6px 6px',
+//     background: 'blue',
+//     textDecoration: 'none',
+//     color: 'white',
+//   }
+  
+//   const Navbar = () =>
+//     <div>
+//       <NavLink to="/" exact style={link} activeStyle={{background: 'darkblue'}}>Home</NavLink>
+//       <NavLink to="/about" exact style={link} activeStyle={{background: 'darkblue'}}>About</NavLink>
+//       <NavLink to="/login" exact style={link} activeStyle={{background: 'darkblue'}}>Login</NavLink>
+//     </div>;
+
+// const Home = () => {
+//   return (
+//     <div>
+//       <h1>Home!</h1>
+//     </div>
+//   );
+// };
+
+// const About = () => {
+//   return(
+//     <div>
+//       <h1>This is my about component!</h1>
+//     </div>
+//     );
+// };
+
+// const Login = () => {
+//   return(
+//     <div>
+//       <form>
+//         <div>
+//           <input type="text" name="username" placeholder="Username" />
+//           <label htmlFor="username">Username</label>
+//         </div>
+//         <input type="submit" value="Login" />
+//       </form>
+//     </div>
+//     );
+// };
+
+ReactDOM.render((
+  <Router>
     <div>
-      <h1>Home!</h1>
+      <Navbar />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/login" component={Login} />
     </div>
-  );
-};
-
-ReactDOM.render(
-  <Home />,
+  </Router>),
+  
   document.getElementById('root')
 );
